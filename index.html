@@ -1,50 +1,178 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MD. RABBI HASAN APU | Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f7fc;
+            color:#333;
+            line-height:1.6;
+        }
+
+        .container{
+            max-width:900px;
+            margin:40px auto;
+            padding:20px;
+        }
+
+        .card{
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .hero{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .hero h1{
+            color:#2563eb;
+            font-size:3rem;
+            margin-bottom:10px;
+        }
+
+        .hero p{
+            font-size:1.2rem;
+            color:#666;
+        }
+
+        h2{
+            color:#2563eb;
+            margin-top:25px;
+            margin-bottom:10px;
+        }
+
+        ul{
+            list-style:none;
+            padding-left:0;
+        }
+
+        li{
+            margin-bottom:10px;
+        }
+
+        .section{
+            margin-top:25px;
+            padding-top:15px;
+            border-top:1px solid #ddd;
+        }
+
+        a{
+            color:#2563eb;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        a:hover{
+            text-decoration:underline;
+        }
+
+        .footer{
+            text-align:center;
+            margin-top:30px;
+            color:#777;
+        }
+
+        @media(max-width:768px){
+            .hero h1{
+                font-size:2rem;
+            }
+
+            .container{
+                margin:15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>MD RABBI HASAN APU</h1>
+    <div class="container">
 
-    <p>I am a student of University of Rajshahi.</p>
+        <div class="card">
 
-    <h2>Education</h2>
-    <ul>
-        <li>
-            <b>College:</b> FARID AHMED BHUIYAN ACADEMY
-        </li>
-        <li>
-            <b>University:</b> University of Rajshahi <br>
-            <i>BSc in Computer Science and Engineering</i>
-        </li>
-    </ul>
+            <div class="hero">
+                <h1>MD RABBI HASAN APU</h1>
+                <p>Computer Science and Engineering Student at University of Rajshahi</p>
+            </div>
 
-    <hr>
+            <div class="section">
+                <h2>About Me</h2>
+                <p>
+                    I am a Computer Science and Engineering student at the
+                    University of Rajshahi. I am interested in programming,
+                    problem solving, competitive programming, and web development.
+                </p>
+            </div>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-    </ul>
+            <div class="section">
+                <h2>Education</h2>
 
-    <hr>
+                <ul>
+                    <li>
+                        <strong>College:</strong>
+                        FARID AHMED BHUIYAN ACADEMY
+                    </li>
 
-    <h2>Contact</h2>
-    <ul>
-        <li><b>Email:</b> s2411176114@ru.ac.bd </li>
-    </ul>
+                    <li>
+                        <strong>University:</strong>
+                        University of Rajshahi
+                        <br>
+                        BSc in Computer Science and Engineering
+                    </li>
+                </ul>
+            </div>
 
-    <hr>
+            <div class="section">
+                <h2>Skills</h2>
 
-    <ul>
-    <b>Codeforces Profile :</b> <a href="https://codeforces.com/profile/An_it"> Hasan </a>
-    </ul>
+                <ul>
+                    <li>HTML</li>
+                    <li>C++</li>
+                    <li>Competitive Programming</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
 
-    <hr>
+            <div class="section">
+                <h2>Contact</h2>
+
+                <ul>
+                    <li>
+                        <strong>Email:</strong>
+                        s2411176114@ru.ac.bd
+                    </li>
+
+                    <li>
+                        <strong>Codeforces:</strong>
+                        <a href="https://codeforces.com/profile/An_it" target="_blank">
+                            Visit My Profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer">
+                © 2026 MD Rabbi Hasan Apu
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
+```
