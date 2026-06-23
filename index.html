@@ -1,178 +1,184 @@
-
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD. RABBI HASAN APU | Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MD Rabbi Hasan Apu | Portfolio</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body{
-            font-family: Arial, sans-serif;
-            background:#f4f7fc;
-            color:#333;
-            line-height:1.6;
-        }
-
-        .container{
-            max-width:900px;
-            margin:40px auto;
-            padding:20px;
-        }
-
-        .card{
-            background:white;
-            padding:30px;
-            border-radius:15px;
-            box-shadow:0 5px 15px rgba(0,0,0,0.1);
-        }
-
-        .hero{
-            text-align:center;
-            margin-bottom:30px;
-        }
-
-        .hero h1{
-            color:#2563eb;
-            font-size:3rem;
-            margin-bottom:10px;
-        }
-
-        .hero p{
-            font-size:1.2rem;
-            color:#666;
-        }
-
-        h2{
-            color:#2563eb;
-            margin-top:25px;
-            margin-bottom:10px;
-        }
-
-        ul{
-            list-style:none;
-            padding-left:0;
-        }
-
-        li{
-            margin-bottom:10px;
-        }
-
-        .section{
-            margin-top:25px;
-            padding-top:15px;
-            border-top:1px solid #ddd;
-        }
-
-        a{
-            color:#2563eb;
-            text-decoration:none;
-            font-weight:bold;
-        }
-
-        a:hover{
-            text-decoration:underline;
-        }
-
-        .footer{
-            text-align:center;
-            margin-top:30px;
-            color:#777;
-        }
-
-        @media(max-width:768px){
-            .hero h1{
-                font-size:2rem;
-            }
-
-            .container{
-                margin:15px;
-            }
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
 
-    <div class="container">
+<div class="container py-5">
 
-        <div class="card">
+    <div class="card shadow-lg border-0">
 
-            <div class="hero">
-                <h1>MD RABBI HASAN APU</h1>
-                <p>Computer Science and Engineering Student at University of Rajshahi</p>
+        <!-- Hero Section -->
+        <div class="card-body">
+
+            <div class="bg-primary text-white text-center rounded p-5 mb-4">
+
+                <h1 class="display-4 fw-bold">
+                    MD RABBI HASAN APU
+                </h1>
+
+                <p class="lead mb-1">
+                    Computer Science & Engineering Student
+                </p>
+
+                <p class="mb-0">
+                    University of Rajshahi
+                </p>
+
             </div>
 
-            <div class="section">
-                <h2>About Me</h2>
-                <p>
+            <!-- About -->
+            <section class="mb-5">
+
+                <h2 class="text-primary border-bottom pb-2">
+                    About Me
+                </h2>
+
+                <p class="mt-3">
                     I am a Computer Science and Engineering student at the
                     University of Rajshahi. I am interested in programming,
                     problem solving, competitive programming, and web development.
                 </p>
-            </div>
 
-            <div class="section">
-                <h2>Education</h2>
+            </section>
 
-                <ul>
-                    <li>
-                        <strong>College:</strong>
-                        FARID AHMED BHUIYAN ACADEMY
-                    </li>
+            <!-- Education -->
+            <section class="mb-5">
 
-                    <li>
-                        <strong>University:</strong>
-                        University of Rajshahi
-                        <br>
-                        BSc in Computer Science and Engineering
-                    </li>
-                </ul>
-            </div>
+                <h2 class="text-primary border-bottom pb-2">
+                    Education
+                </h2>
 
-            <div class="section">
-                <h2>Skills</h2>
+                <div class="row g-3 mt-2">
 
-                <ul>
-                    <li>HTML</li>
-                    <li>C++</li>
-                    <li>Competitive Programming</li>
-                    <li>Problem Solving</li>
-                </ul>
-            </div>
+                    <div class="col-md-6">
 
-            <div class="section">
-                <h2>Contact</h2>
+                        <div class="card h-100 shadow-sm">
 
-                <ul>
-                    <li>
+                            <div class="card-body">
+
+                                <h5 class="card-title">
+                                    College
+                                </h5>
+
+                                <p class="card-text">
+                                    FARID AHMED BHUIYAN ACADEMY
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">
+                                    University
+                                </h5>
+
+                                <p class="card-text mb-1">
+                                    University of Rajshahi
+                                </p>
+
+                                <small class="text-muted">
+                                    BSc in Computer Science & Engineering
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Skills -->
+            <section class="mb-5">
+
+                <h2 class="text-primary border-bottom pb-2">
+                    Skills
+                </h2>
+
+                <div class="mt-3">
+
+                    <span class="badge bg-primary fs-6 me-2 mb-2">
+                        HTML
+                    </span>
+
+                    <span class="badge bg-success fs-6 me-2 mb-2">
+                        C++
+                    </span>
+
+                    <span class="badge bg-warning text-dark fs-6 me-2 mb-2">
+                        Competitive Programming
+                    </span>
+
+                    <span class="badge bg-info text-dark fs-6 me-2 mb-2">
+                        Problem Solving
+                    </span>
+
+                </div>
+
+            </section>
+
+            <!-- Contact -->
+            <section>
+
+                <h2 class="text-primary border-bottom pb-2">
+                    Contact
+                </h2>
+
+                <ul class="list-group mt-3">
+
+                    <li class="list-group-item">
                         <strong>Email:</strong>
                         s2411176114@ru.ac.bd
                     </li>
 
-                    <li>
-                        <strong>Codeforces:</strong>
-                        <a href="https://codeforces.com/profile/An_it" target="_blank">
-                            Visit My Profile
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
 
-            <div class="footer">
+                        <span>
+                            <strong>Codeforces</strong>
+                        </span>
+
+                        <a href="https://codeforces.com/profile/An_it"
+                           target="_blank"
+                           class="btn btn-outline-primary btn-sm">
+                            Visit Profile
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="text-center text-muted border-top mt-5 pt-3">
                 © 2026 MD Rabbi Hasan Apu
-            </div>
+            </footer>
 
         </div>
 
     </div>
 
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
-```
